@@ -1,8 +1,21 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: gray;
+}
 .App {
+  /* text-align: center; */
+  margin: 30px;
+  /* background-color: gray; */
+}
+.title{
   text-align: center;
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +48,44 @@
   to {
     transform: rotate(360deg);
   }
+} */
+.firstHalf{
+  width: 40%;
+  float: left;
+  padding: 30px;
+}
+/* h1{
+  line-height: 40%;
+} */
+.firstName{
+  font-size: 1.5em;
+}
+.surName{
+  font-size: 2em;
+  letter-spacing: 0.1em;
+  color: pink;
+}
+ul{
+ list-style-type:circle;
+ padding-left: 30px;
+}
+.secondHalf{
+  width: 60%;
+  float: left;
+  padding-bottom: 30px;
+}
+h2{
+  padding: 20px;
+  border-bottom: 3px solid pink;
+  margin-bottom: 10px;
+}
+.job-role{
+  font-weight: 900;;
+}
+/* p{
+  line-height: 90%;
+} */
+.cv_pic{
+  height: 100%;
+  width: 50%;
 }
